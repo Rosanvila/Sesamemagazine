@@ -1,0 +1,87 @@
+.genreArticles-container {
+    padding: 0 40px;
+}
+
+.genreArticles-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.genreArticles-container li {
+    margin-top: 20px;
+    padding: 0 50px 10px 0;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+.genreArticles-container h4 {
+    font-size: 30pt;
+}
+
+.genreArticles-container hr {
+    border-bottom: 1px solid;
+    margin-bottom: 30px;
+}
+
+.article-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 80px;
+    grid-column-gap: 30px;
+    padding: 0 40px;
+    text-align: left;
+}
+
+.article-container img {
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    border-radius: 10%;
+    margin-top: 30px;
+}
+
+.article-container h4 {
+    font-size: 24pt;
+}
+
+.article-container p {
+    margin-top: 20px;
+    font-size: 20pt;
+    color: #580d92;
+}
+
+.enLigne h2 {
+    margin: 150px 0;
+    display: inline-block;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+}
+
+
+.autre {
+background-color: rgb(165, 144, 199);
+}
+
+.autre p {
+padding: 40px;
+font-family: "murmure",sans-serif;
+font-size: 105pt;
+}
+
+.autreMagazines {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.autreMagazines p {
+font-family: "Lora", sans-serif;
+font-size: 34pt;
+}
+
+.autreMagazines img {
+box-shadow: 5px 5px 15px 0px rgb(0 0 0 / 0.5);
+}

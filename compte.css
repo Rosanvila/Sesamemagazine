@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora/Lora-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'murmure';
+    src: url('murmure/fonts/webfonts/LeMurmure-Regular.woff') format('woff');
+}
+
+
+.compteSection {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .compteLeft {
+    flex: 1;
+    width: 50%;
+    background-color: #28244b;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+.compteLeft li {
+    opacity: 0.5; /* Opacité par défaut, ajustez selon vos préférences */
+    transition: opacity 0.2s; /* Ajouter une transition pour une animation fluide */
+}
+
+.compteLeft li:hover {
+    cursor: pointer; /* Ajouter un curseur pointeur au survol */
+}
+
+.compteLeft li.clicked {
+    opacity: 1; /* Opacité lorsqu'un élément est cliqué, ramenant à la couleur d'origine */
+}
+
+
+.compteLeft h2 {
+    padding: 30px;
+    display: flex;
+    font-size: 68pt;
+    margin-bottom: 20px;
+}
+
+.compteLeft .clôture {
+    text-decoration: underline; 
+}
+
+
+#commandList {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column; /* Ajout de flex-direction pour la disposition en colonne */
+    justify-content: flex-start; /* Aligner les éléments en haut */
+    align-items: flex-start;
+}
+
+#commandList li {
+    padding: 40px 20px;
+    font-size: 30pt;
+}
+
+#commandList hr {
+    margin: 5px 0;
+    width: 50%;
+}
+
+#commandList .clôture {
+    font-size: 16pt;
+}
+
+.details {
+    display: none;
+}
+
+.genreArticles {
+    padding: 0 20px;
+}
+
+
+.CompteRight {
+    width: 50%;
+    padding: 80px 120px;
+    background-color: #ded7ea;
+    text-align: start;
+    overflow: none;
+}
+
+
+.petitAdresse {
+    font-size: 15pt;
+    margin-bottom: 25px;
+    padding: 20px 0;
+}
+
+.CompteRight h2 {
+    font-size: 40pt;
+    font-family: 'Lora',sans-serif;
+    padding: 20px 0;
+
+}
+
+.CompteRight hr {
+    border-bottom: 2px solid;
+    margin-top: 20px;
+}
+
+.CompteRight h3 {
+    padding: 30px 0;
+    font-size: 25pt;
+}
+
+
+li {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#enCoursDetails p {
+    text-align: end;
+    padding: 20px 0;
+}
+
+#enCoursDetails h4 {
+    text-align: end;
+}
+
+.clôture h2 {
+    font-family: 'Lora',sans-serif;
+}
+
+#MonCompteDetails {
+    color: whitesmoke;
+}
+
+#MonCompteDetails h4 {
+    font-size: 20pt;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+#MonCompteDetails h2 {
+    text-decoration: none;
+}
+
+#MonCompteDetails p {
+    font-size: 15pt;
+}

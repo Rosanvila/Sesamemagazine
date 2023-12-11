@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Sésame</title>
+        <link rel="stylesheet" href="compte.css">
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img
+                        src="./Reseaux sociaux/logo sesame-sans baseline_Plan de travail 1 copie 4.png"
+                        alt="Sesame">
+                </a>
+                <div class="nav-right">
+                    <a href="articles.html">Articles</a>
+                    <a href="magazines.html">Magazines</a>
+                    <hr class="barre-verticale">
+                    <a href="newsletter.html">Newsletter</a>
+                    <a href="compte.html">Compte</a>
+                    <a href="panier.html">
+                        <img src="./noun-trolley-6308768.svg" alt="panier"
+                            class="panier">
+                    </a>
+                </div>
+            </nav>
+            <hr>
+        </header>
+
+        <section>
+            <div class="compteSection">
+                <div class="compteLeft">
+                    <h2>Mon compte</h2>
+                    <ul id="commandList">
+                        <hr>
+                        <li onclick="showDetails('informations')">Modifier mes
+                            informations</li>
+                        <hr>
+                        <li onclick="showDetails('enCours')">Commandes en cours</li>
+                        <hr>
+                        <li onclick="showDetails('historique')">Historique d'achat</li>
+                        <hr>
+                        <li class="clôture" onclick="showDetails('MonCompte')">Clôturer
+                            mon
+                            compte</li>
+                    </ul>
+                </div>
+                <div class="CompteRight">
+                    <div id="informationsDetails" class="details">
+                        <div class="mesInfos">
+                            <h2>Mes informations</h2>
+                            <h3>Modifier mes informations</h3>
+                            <hr>
+                            <ul>
+                                <li>Prénom</li>
+                                <hr>
+                                <li>Nom</li>
+                                <hr>
+                                <li>Adresse mail</li>
+                                <hr>
+                                <li>Adresse de facturation</li>
+                                <p class="petitAdresse">
+                                    Adresse de facturation <br> Adresse de
+                                    facturation <br> Adresse de facturation
+                                </p>
+                                <hr>
+                                <li>Adresse de livraison</li>
+                                <p class="petitAdresse">
+                                    Adresse de livraison <br> Adresse de
+                                    livraison
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="enCoursDetails" class="details">
+                        <h2>Commandes en cours</h2>
+                        <ol>
+                            <li>
+                                &bullet; Commande numero 251697 : 12/12/2023
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                                <hr>
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <p>
+                                Etat
+                            </p>
+                            <h4>
+                                EN PREPARATION
+                            </h4>
+                            <li>
+                                &bullet; Commande numero 153942 : 12/12/2023
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <p>
+                                Etat
+                            </p>
+                            <h4>
+                                EN PREPARATION
+                            </h4>
+                        </ol>
+                    </div>
+                    <div id="historiqueDetails" class="details">
+                        <h2>Historique d'achats</h2>
+                        <ol>
+                            <li>
+                                &bullet; Commande numero 251697 : 07/09/2023
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                                <hr>
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                                <hr>
+                            </li>
+                            <li>
+                                &bullet; Commande numero 153942 : 16/06/2023
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                            </li>
+
+                            <hr>
+                            <li>
+                                &bullet; Commande numero 153942 : 16/06/2023
+                                <ul class="list-container">
+                                    <li>Nom de l'article</li>
+                                    <li>Quantité</li>
+                                    <li>Prix</li>
+                                </ul>
+                            </li>
+                            <hr>
+                        </ol>
+                    </div>
+                    <div id="MonCompteDetails" class="details">
+                        <ul>
+                            <li> <h2>Clôturer mon compte</h2>
+                            </li>
+                            <li> <h3>Êtes-vous sûr(e) de vouloir supprimer
+                                    définitivement votre compte ?</h3></li>
+                            <li>
+                                <hr>
+                            </li>
+                            <li> <p>Sésame magazine est un média indépendant et
+                                    qui le
+                                    restera.
+                                    Nous ne vous envoyons pas de publicités de
+                                    partenaires et nous
+                                    ne vendons pas vos données.</p>
+                            </li>
+                            <li>
+                                <h4>Supprimer mon compte</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <img
+                    src="./Reseaux sociaux/logo sesame-sans baseline_Plan de travail 1 copie 4.png"
+                    alt="sesame-footer">
+                <p>37 rue de la liberté <br>
+                    Paris, 75110 <br>
+                    contact@sesame.fr
+                </p>
+                <div class="reseaux">
+                    <a href="lien-instagram" target="_blank"> <img
+                            src="./Reseaux sociaux/reseaux sociaux-02.png"
+                            alt="instagram"></a>
+                    <a href="lien-facebook" target="_blank"> <img
+                            src="./Reseaux sociaux/reseaux sociaux-03.png"
+                            alt="facebook"></a>
+                    <a href="lien-linkedin" target="_blank"> <img
+                            src="./Reseaux sociaux/reseaux sociaux-04.png"
+                            alt="linkedIn"></a>
+                </div>
+
+            </div>
+
+        </footer>
+        <script src="./script.js" type="text/javascript"></script>
+    </body>
+
+</html>

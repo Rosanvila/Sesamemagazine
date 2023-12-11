@@ -1,0 +1,60 @@
+.magazine1-container {
+    display: flex;
+}
+
+.descriptionLeft,
+.descriptionRight {
+    width: 50vw; 
+}
+
+
+
+.descriptionRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.descriptionRight h2 {
+    padding: 50px;
+    font-size: 65pt;
+}
+
+.descriptionRight p {
+    padding: 80px 100px 300px 60px;
+    text-align: justify;
+    font-size: 15pt;
+}
+
+.autre {
+    background-color: #bab5d2;
+}
+
+.autre h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 40pt;
+    margin: 40px 0;
+    text-decoration: none;
+}
+
+.autreMagazines {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.autreMagazines p {
+    font-size: 22pt;
+    padding-top: 20px;
+}
+
+.autreMagazines img {
+    width: 50%;
+    box-shadow: 5px 5px 15px 0px rgb(0 0 0 / 0.5);
+    margin-top: 50px;
+}
+
+.autreMagazines h4 {
+    font-size: 20pt;
+    color: #524c78;
+    padding: 10px 0 70px 0;
+}

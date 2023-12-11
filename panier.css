@@ -1,0 +1,193 @@
+.lePanier {
+    padding: 0 150px;
+    background-color: #c6daf0;
+  }
+  
+.lePanier h1 {
+    font-family: 'murmure',sans-serif;
+    font-size: 65.54pt;
+    color: black;
+    padding: 50px 0;
+    text-align: start;
+}
+
+.lePanier h2 {
+    font-family: 'Lora',sans-serif;
+    font-size: 19pt;
+}
+
+.lePanier hr {
+    border-bottom: 1px solid;
+}
+
+.lePanier img {
+    width: 30%;
+    padding: 10px 0;
+}
+
+.lePanier h4 {
+    font-size: 21pt;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+
+.lePanier select {
+    background-color: transparent;
+    width: 17%;
+    height: 17%;
+    margin-top: 30px;
+    border: 2px solid;
+   font-size: 13pt;
+}
+
+.nomColonne {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "articleTitle . prixTitle quantiteTitle totalTitle";
+    font-size: 20pt;
+}
+
+/* Ajoutez les styles appropriés pour les autres éléments */
+.articleTitle { grid-area: articleTitle; }
+.prixTitle { grid-area: prixTitle; } /* Colonne vide en deuxième position */
+.quantiteTitle { grid-area: quantiteTitle; }
+.totalTitle { grid-area: totalTitle; }
+
+.articlesPanier1-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "sesame1Grid img1Grid prix1Grid quantite1Grid total1Grid";
+    align-items: center;
+    justify-items: center;
+    font-size: 16pt;
+}
+
+.sesame1Grid {
+    grid-area: sesame1Grid;
+}
+
+.img1Grid {
+    grid-area: img1Grid;
+}
+
+.prix1Grid {
+    grid-area: prix1Grid;
+}
+
+.quantite1Grid {
+    grid-area: quantite1Grid; /* Correction ici */
+}
+
+.total1Grid {
+    grid-area: total1Grid;
+}
+
+
+
+
+.articlesPanier2-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "sesame2Grid img2Grid prix2Grid quantite2Grid total2Grid";
+    align-items: center;
+    justify-items: center;
+}
+
+
+.sesame2Grid {
+    grid-area: sesame2Grid;
+}
+
+.img2Grid {
+    grid-area: img2Grid;
+}
+
+.prix2Grid {
+    grid-area: prix2Grid;
+}
+
+.quantite2Grid {
+    grid-area: quantite2Grid; /* Correction ici */
+}
+
+.total2Grid {
+    grid-area: total2Grid;
+}
+
+.livraisonPanier-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: ". . livraisonGrid paysGrid total3Grid";
+    align-items: center;
+    justify-items: center;
+}
+
+.livraisonPanier-container select {
+ width: 100px;
+ height: 30px;
+}
+
+.livraisonGrid {
+    grid-area: livraisonGrid;
+    text-align: start;
+    padding: 20px 0;
+}
+
+.livraisonGrid p {
+    font-size: 13pt;
+}
+
+.paysGrid {
+    grid-area: paysGrid;
+}
+
+.total3Grid {
+    grid-area: total3Grid;
+}
+
+.total3Grid p {
+    font-size: 16pt;
+}
+
+.panierTotal-container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-areas: "viderGrid . . total4 totalFin";
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 200px;
+    padding: 20px;
+}
+
+.viderGrid {
+    grid-area: viderGrid;
+}
+
+.total4 {
+    grid-area: total4;
+}
+
+.totalFin {
+    grid-area: totalFin;
+}
+
+.lePanier-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.lePanier-container button {
+    position: absolute;
+    top: 580px;
+    left: 1370px;
+    margin: 50px 0;
+    justify-content: flex-end; 
+    background-color: #489ad8;
+    font-size: 20pt;
+    color: whitesmoke;
+    align-items: end;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
