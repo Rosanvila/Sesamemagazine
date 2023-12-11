@@ -396,15 +396,15 @@ footer {
 .newsletter-content #accept-conditions + label {
     cursor: pointer;
     position: relative;
-    left: 40px;
-    user-select: none;
+    padding-left: 30px;
+
 }
 
 
 .newsletter-content #accept-conditions + label::before {
     position: absolute;
     content: "";
-    left: -40px;
+    left: 0;
     top: 20px;
     transform: translateY(-50%);
     width: 20px; 
@@ -423,11 +423,11 @@ footer {
 
 .newsletter-content #accept-conditions:checked + label::after {
     content: '\2713'; /* Code Unicode du symbole "check" */
-    font-size: 18px;
+    font-size: 15pt;
     color: whitesmoke;
     position: absolute;
-    top: 20px;
-    left: -35px;
+    top: 18px;
+    left: 5px;
     transform: translateY(-50%);}
 
 
