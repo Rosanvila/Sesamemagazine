@@ -7,7 +7,9 @@
     width: 50%; 
 }
 
-
+.descriptionLeft img {
+    width: 100%;
+}
 
 .descriptionRight {
     display: flex;
