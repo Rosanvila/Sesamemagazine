@@ -43,6 +43,7 @@
     display: flex;
     font-size: 68pt;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .compteLeft .clôture {
@@ -56,11 +57,13 @@
     flex-direction: column; /* Ajout de flex-direction pour la disposition en colonne */
     justify-content: flex-start; /* Aligner les éléments en haut */
     align-items: flex-start;
+    overflow: hidden;
 }
 
 #commandList li {
     padding: 40px 20px;
     font-size: 30pt;
+    overflow: hidden;
 }
 
 #commandList hr {
