@@ -1,32 +1,23 @@
-let playOnce500 = true;
-let playOnce1300 = true;
-let playOnce3500 = true;
+let playOnce400 = true;
+let playOnce1100 = true;
 
 window.addEventListener("scroll", () => {
   const scrollValue = window.scrollY;
 
-  if (scrollValue > 500 && playOnce500) {
+  if (scrollValue > 400 && playOnce400) {
     document.querySelector("#maree").style.opacity = "1";
     document.querySelector("#maree").style.transform = "initial";
     document.querySelector("#partieDroite").style.opacity = "1";
     document.querySelector("#partieDroite").style.transform = "initial";
-    playOnce500 = false;
+    playOnce400 = false;
   }
 
-  if (scrollValue > 1300 && playOnce1300) {
+  if (scrollValue > 1100 && playOnce1100) {
     document.querySelector("#champ").style.opacity = "1";
     document.querySelector("#champ").style.transform = "initial";
     document.querySelector(".partieGauche").style.opacity = "1";
     document.querySelector(".partieGauche").style.transform = "initial";
-    playOnce1300 = false;
-  }
-
-  if (scrollValue > 3500 && playOnce3500) {
-    document.querySelector("#mouton").style.opacity = "1";
-    document.querySelector("#mouton").style.transform = "initial";
-    document.querySelector(".section5Droite").style.opacity = "1";
-    document.querySelector(".section5Droite").style.transform = "initial";
-    playOnce3500 = false;
+    playOnce1100 = false;
   }
 });
 
